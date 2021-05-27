@@ -1,3 +1,13 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">KOTLIN MVVM</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="email">Email</string>
+    <string name="email_hint">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="don_t_have_an_account_register_now">Dont have a Account Register Now</string>
+    <string name="forgot_your_password">Forgot your password?</string>
+    <string name="register_now">Register</string>
+    <string name="name">Name</string>
 </resources>
