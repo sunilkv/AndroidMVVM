@@ -6,19 +6,22 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.gw.callingcard.R
+import com.gw.callingcard.data.network.APIInterface
+import com.gw.callingcard.data.repository.AuthRepository
+import com.gw.callingcard.databinding.FragmentLoginBinding
+import com.gw.callingcard.ui.base.BaseFragment
 
 
-class LoginFragment : Fragment() {
-   override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
+class LoginFragment : BaseFragment<AuthViewModel,FragmentLoginBinding,AuthRepository>() {
 
+    override fun onActivityCreated(savedInstanceState: Bundle?) {
+        super.onActivityCreated(savedInstanceState)
     }
+    override fun getViewModel() = AuthViewModel::class.java
 
-    override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View? {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_login, container, false)
-    }
+    override fun getFragmentBinding(inflater: LayoutInflater, container: ViewGroup?): FragmentLoginBinding
+            = FragmentLoginBinding.inflate(layoutInflater,container,false);
+
+    override fun getFragmentRepository(): AuthRepository= AuthRepository(remoteDataSource.buildApi(APIInterface::class.java))
+
 }

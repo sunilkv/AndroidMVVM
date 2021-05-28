@@ -1,4 +1,4 @@
-package com.gw.callingcard.network
+package com.gw.callingcard.data.network
 
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
