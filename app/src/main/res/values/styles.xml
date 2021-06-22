@@ -14,6 +14,13 @@
         <item name="android:textColor">@color/colorTextLabelDefault</item>
     </style>
 
+    <style name="TextInputEditext" parent="TextInputDefault">
+        <item name="android:layout_marginBottom">32dp</item>
+        <item name="android:layout_marginLeft">32dp</item>
+        <item name="android:layout_marginRight">32dp</item>
+
+    </style>
+
     <style name="TextInputDefault">
         <item name="font">@font/poppins_regular</item>
         <item name="android:textSize">18sp</item>
