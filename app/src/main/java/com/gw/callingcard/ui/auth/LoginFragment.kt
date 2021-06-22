@@ -7,6 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
 import androidx.lifecycle.Observer
+import androidx.navigation.fragment.findNavController
 import com.gw.callingcard.data.network.APIInterface
 import com.gw.callingcard.data.network.Resource
 import com.gw.callingcard.data.repository.AuthRepository
@@ -17,6 +18,7 @@ import kotlinx.coroutines.runBlocking
 
 
 class LoginFragment : BaseFragment<AuthViewModel,FragmentLoginBinding,AuthRepository>() {
+
 
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
@@ -39,6 +41,10 @@ class LoginFragment : BaseFragment<AuthViewModel,FragmentLoginBinding,AuthReposi
             login()
         }
 
+        binding.textViewRegisterNow.setOnClickListener(
+             //   findNavController().navigate()
+        )
+
     }
 
     private fun login() {
@@ -49,7 +55,9 @@ class LoginFragment : BaseFragment<AuthViewModel,FragmentLoginBinding,AuthReposi
                 viewModel.login(email,password)
 
         }
-    }
+
+
+
 
 
     //Setting up the View Model
