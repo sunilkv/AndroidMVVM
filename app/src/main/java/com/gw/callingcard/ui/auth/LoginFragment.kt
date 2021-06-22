@@ -44,11 +44,10 @@ class LoginFragment : BaseFragment<AuthViewModel,FragmentLoginBinding,AuthReposi
     private fun login() {
         val email = binding.editTextTextEmailAddress.text.toString().trim()
         val password = binding.editTextTextPassword.text.toString().trim()
-        runBlocking {
-            launch {
+
                 binding.progressbar.visibility = View.VISIBLE
                 viewModel.login(email,password)
-            }
+
         }
     }
 

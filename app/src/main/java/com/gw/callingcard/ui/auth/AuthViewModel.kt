@@ -21,7 +21,8 @@ class AuthViewModel(
         //Will access outside the class but this are Immutable..
         val loginResponse : LiveData<Resource<LoginResponse>> get() =_loginResponse //assinging the livedata result
 
-        suspend  fun login( email:String, password:String)=viewModelScope.launch {
+
+        fun login( email:String, password:String)=viewModelScope.launch {
                 _loginResponse.value = repository.login(email,password)
         }
 

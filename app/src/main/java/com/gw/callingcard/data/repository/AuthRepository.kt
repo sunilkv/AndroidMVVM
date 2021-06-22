@@ -6,7 +6,7 @@ class AuthRepository(
         private val api: APIInterface
 ) : BaseRepository(){
 
-
+    // suspend bez we use Asyncronous call using Co-routines
     suspend fun login(
             email:String,
             password:String
