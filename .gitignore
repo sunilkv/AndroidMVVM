@@ -1,5 +1,8 @@
 *.iml
 .gradle
+/gradle.properties
+/gradle
+/gradle/wrapper/gradle-wrapper.properties
 /local.properties
 /.idea/caches
 /.idea/libraries
