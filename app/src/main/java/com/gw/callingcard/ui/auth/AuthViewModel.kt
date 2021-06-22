@@ -23,7 +23,6 @@ class AuthViewModel(
 
         suspend  fun login( email:String, password:String)=viewModelScope.launch {
                 _loginResponse.value = repository.login(email,password)
-
         }
 
 

@@ -16,21 +16,19 @@ import com.gw.callingcard.data.repository.BaseRepository
 abstract class BaseFragment<VM: ViewModel,B:ViewBinding,R:BaseRepository>: Fragment() {
 
     //as the name convey it may be iniatized late..
-    protected  lateinit var binding: B;
+    protected  lateinit var binding: B
 
     //View Model
-    protected lateinit var viewModel:VM;
+    protected lateinit var viewModel:VM
 
     //REmote APi Datasource instance  to call API
     protected  val remoteDataSource= RemoteDataSource()
 
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
-        binding=getFragmentBinding(inflater,container);
-
+        binding=getFragmentBinding(inflater,container)
         //Created Viewmodel factory Instanace with Constructor consit of Repository..
-        val factory =ViewModelFactory(getFragmentRepository());
-
+        val factory =ViewModelFactory(getFragmentRepository())
         //Get the View Model from the Factory..
         viewModel =ViewModelProvider(this,factory).get(getViewModel())
 
