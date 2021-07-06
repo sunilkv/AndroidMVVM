@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/sunilkv/Documents/SunilWorkspace/CallApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_login.xml",
+        "source": "/Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/res/layout/fragment_login.xml"
+    },
+    {
+        "merged": "/Users/sunilkv/Documents/SunilWorkspace/CallApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_home.xml",
+        "source": "/Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/res/layout/fragment_home.xml"
+    },
+    {
+        "merged": "/Users/sunilkv/Documents/SunilWorkspace/CallApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_auth.xml",
+        "source": "/Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/res/layout/activity_auth.xml"
+    },
+    {
+        "merged": "/Users/sunilkv/Documents/SunilWorkspace/CallApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
+        "source": "/Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/sunilkv/Documents/SunilWorkspace/CallApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_home.xml",
+        "source": "/Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/res/layout/activity_home.xml"
+    },
+    {
+        "merged": "/Users/sunilkv/Documents/SunilWorkspace/CallApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_signup.xml",
+        "source": "/Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/res/layout/fragment_signup.xml"
+    }
+]

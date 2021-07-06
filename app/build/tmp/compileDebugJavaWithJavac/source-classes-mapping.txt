@@ -1,0 +1,14 @@
+com/gw/callingcard/BuildConfig.java
+ com.gw.callingcard.BuildConfig
+com/gw/callingcard/databinding/FragmentSignupBinding.java
+ com.gw.callingcard.databinding.FragmentSignupBinding
+com/gw/callingcard/databinding/FragmentHomeBinding.java
+ com.gw.callingcard.databinding.FragmentHomeBinding
+com/gw/callingcard/databinding/ActivityHomeBinding.java
+ com.gw.callingcard.databinding.ActivityHomeBinding
+com/gw/callingcard/databinding/ActivityMainBinding.java
+ com.gw.callingcard.databinding.ActivityMainBinding
+com/gw/callingcard/databinding/ActivityAuthBinding.java
+ com.gw.callingcard.databinding.ActivityAuthBinding
+com/gw/callingcard/databinding/FragmentLoginBinding.java
+ com.gw.callingcard.databinding.FragmentLoginBinding
