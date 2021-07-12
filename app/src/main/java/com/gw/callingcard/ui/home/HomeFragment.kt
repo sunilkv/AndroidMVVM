@@ -6,18 +6,27 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.gw.callingcard.R
+import com.gw.callingcard.data.network.APIInterface
+import com.gw.callingcard.data.repository.AuthRepository
+import com.gw.callingcard.data.repository.HomeRepository
+import com.gw.callingcard.databinding.FragmentHomeBinding
+import com.gw.callingcard.ui.base.BaseFragment
 
-class HomeFragment : Fragment() {
-   override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-    }
+class HomeFragment : BaseFragment<HomeViewModel, FragmentHomeBinding, HomeRepository>() {
 
-    override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View? {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_home, container, false)
-    }
+
+
+
+    override fun getViewModel() = HomeViewModel::class.java
+
+    override fun getFragmentBinding(
+        inflater: LayoutInflater,
+        container: ViewGroup?
+    ): FragmentHomeBinding =
+        FragmentHomeBinding.inflate(layoutInflater, container, false)
+
+    override fun getFragmentRepository(): HomeRepository =  HomeRepository(remoteDataSource.buildApi(
+        APIInterface::class.java),appPreferences)
+
 
 }

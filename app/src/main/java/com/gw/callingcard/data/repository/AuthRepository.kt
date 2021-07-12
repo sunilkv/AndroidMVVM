@@ -20,4 +20,6 @@ class AuthRepository(
     suspend fun saveAuthToken(token:String){
         appPreferences.storeUserDetails(token)
     }
+
+
 }

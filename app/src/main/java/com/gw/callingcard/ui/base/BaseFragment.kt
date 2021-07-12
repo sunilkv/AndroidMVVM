@@ -24,7 +24,7 @@ abstract class BaseFragment<VM: ViewModel,B:ViewBinding,R:BaseRepository>: Fragm
     //REmote APi Datasource instance  to call API
     protected  val remoteDataSource= RemoteDataSource()
 
-    //Shared Prefrences..
+    //Shared preferences..
     protected lateinit var appPreferences:AppPreferences
 
 

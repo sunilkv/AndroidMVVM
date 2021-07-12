@@ -28,10 +28,10 @@ class AppPreferences( context: Context){
         private  val KEY_AUTH= preferencesKey<String>("keyAuth")
     }
 
-    //Adding a data to a Prefrence..
+    //Adding a data to a preferences..
         suspend fun  storeUserDetails(authtoken:String){
-            dataStore.edit { prefrences->
-                prefrences[KEY_AUTH]=authtoken
+            dataStore.edit { preferences->
+                preferences[KEY_AUTH]=authtoken
             }
         }
 

@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.widget.Toolbar;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.fragment.app.FragmentContainerView;
 import androidx.viewbinding.ViewBinding;
@@ -21,10 +22,14 @@ public final class ActivityHomeBinding implements ViewBinding {
   @NonNull
   public final FragmentContainerView fragmentContainerView;
 
+  @NonNull
+  public final Toolbar toolbar;
+
   private ActivityHomeBinding(@NonNull ConstraintLayout rootView,
-      @NonNull FragmentContainerView fragmentContainerView) {
+      @NonNull FragmentContainerView fragmentContainerView, @NonNull Toolbar toolbar) {
     this.rootView = rootView;
     this.fragmentContainerView = fragmentContainerView;
+    this.toolbar = toolbar;
   }
 
   @Override
@@ -60,7 +65,13 @@ public final class ActivityHomeBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityHomeBinding((ConstraintLayout) rootView, fragmentContainerView);
+      id = R.id.toolbar;
+      Toolbar toolbar = rootView.findViewById(id);
+      if (toolbar == null) {
+        break missingId;
+      }
+
+      return new ActivityHomeBinding((ConstraintLayout) rootView, fragmentContainerView, toolbar);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
