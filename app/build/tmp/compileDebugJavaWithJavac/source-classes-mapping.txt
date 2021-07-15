@@ -1,5 +1,9 @@
 com/gw/callingcard/BuildConfig.java
  com.gw.callingcard.BuildConfig
+com/gw/callingcard/databinding/NavHeaderDashboardBinding.java
+ com.gw.callingcard.databinding.NavHeaderDashboardBinding
+com/gw/callingcard/databinding/ContentDashboardBinding.java
+ com.gw.callingcard.databinding.ContentDashboardBinding
 com/gw/callingcard/databinding/FragmentSignupBinding.java
  com.gw.callingcard.databinding.FragmentSignupBinding
 com/gw/callingcard/databinding/FragmentHomeBinding.java

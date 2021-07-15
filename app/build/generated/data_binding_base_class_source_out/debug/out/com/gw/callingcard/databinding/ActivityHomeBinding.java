@@ -7,9 +7,9 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.widget.Toolbar;
-import androidx.constraintlayout.widget.ConstraintLayout;
-import androidx.fragment.app.FragmentContainerView;
+import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.viewbinding.ViewBinding;
+import com.google.android.material.navigation.NavigationView;
 import com.gw.callingcard.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -17,24 +17,28 @@ import java.lang.String;
 
 public final class ActivityHomeBinding implements ViewBinding {
   @NonNull
-  private final ConstraintLayout rootView;
+  private final DrawerLayout rootView;
 
   @NonNull
-  public final FragmentContainerView fragmentContainerView;
+  public final DrawerLayout drawerLayout;
+
+  @NonNull
+  public final NavigationView navView;
 
   @NonNull
   public final Toolbar toolbar;
 
-  private ActivityHomeBinding(@NonNull ConstraintLayout rootView,
-      @NonNull FragmentContainerView fragmentContainerView, @NonNull Toolbar toolbar) {
+  private ActivityHomeBinding(@NonNull DrawerLayout rootView, @NonNull DrawerLayout drawerLayout,
+      @NonNull NavigationView navView, @NonNull Toolbar toolbar) {
     this.rootView = rootView;
-    this.fragmentContainerView = fragmentContainerView;
+    this.drawerLayout = drawerLayout;
+    this.navView = navView;
     this.toolbar = toolbar;
   }
 
   @Override
   @NonNull
-  public ConstraintLayout getRoot() {
+  public DrawerLayout getRoot() {
     return rootView;
   }
 
@@ -59,9 +63,11 @@ public final class ActivityHomeBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.fragmentContainerView;
-      FragmentContainerView fragmentContainerView = rootView.findViewById(id);
-      if (fragmentContainerView == null) {
+      DrawerLayout drawerLayout = (DrawerLayout) rootView;
+
+      id = R.id.nav_view;
+      NavigationView navView = rootView.findViewById(id);
+      if (navView == null) {
         break missingId;
       }
 
@@ -71,7 +77,7 @@ public final class ActivityHomeBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityHomeBinding((ConstraintLayout) rootView, fragmentContainerView, toolbar);
+      return new ActivityHomeBinding((DrawerLayout) rootView, drawerLayout, navView, toolbar);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

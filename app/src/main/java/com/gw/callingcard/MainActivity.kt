@@ -3,6 +3,7 @@ package com.gw.callingcard
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.widget.Toast
 import androidx.lifecycle.Observer
 import androidx.lifecycle.asLiveData
@@ -15,6 +16,7 @@ import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 
 class MainActivity : AppCompatActivity() {
+    val TAG:String = "MainActivity"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -27,10 +29,13 @@ class MainActivity : AppCompatActivity() {
             //adding the Loading for 3ms.. splash Screen..
             lifecycleScope.launch {
                 delay(4000)
-                if (it == null)
-                    startNewActivity(AuthActivity::class.java)
-                else
+                Log.d(TAG, "onCreate: "+it.toString())
+                if (it != null && it.toString().isNotEmpty())
                     startNewActivity(HomeActivity::class.java)
+                else
+                    startNewActivity(AuthActivity::class.java)
+
+
             }
 
         })

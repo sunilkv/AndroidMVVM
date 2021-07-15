@@ -3,7 +3,6 @@ package com.gw.callingcard.data.repository
 import com.gw.callingcard.data.network.Resource
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
-import okhttp3.Dispatcher
 import retrofit2.HttpException
 
 abstract class BaseRepository {

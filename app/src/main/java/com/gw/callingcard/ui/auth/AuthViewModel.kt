@@ -6,7 +6,6 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.gw.callingcard.data.network.Resource
 import com.gw.callingcard.data.repository.AuthRepository
-import com.gw.callingcard.data.repository.BaseRepository
 import com.gw.callingcard.data.responses.LoginResponse
 import kotlinx.coroutines.launch
 

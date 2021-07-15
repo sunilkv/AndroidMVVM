@@ -15,7 +15,7 @@ import kotlinx.coroutines.launch
 
 //to Start A Fresh Activity
 fun<A: Activity>  Activity.startNewActivity(activity: Class<A>){
-    startActivity(Intent(this,com.gw.callingcard.ui.home.HomeActivity::class.java).also {
+    startActivity(Intent(this,activity).also {
         it.flags= Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
     })
     
@@ -56,8 +56,6 @@ fun Fragment.handleApiError(
         failure.errorCode == 401 -> {
             if (this is LoginFragment) {
                 requireView().snackbar("You've entered incorrect email or password")
-            } else {
-              // logout()
             }
         }
         else -> {

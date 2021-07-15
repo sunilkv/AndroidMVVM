@@ -8,8 +8,16 @@
         "source": "/Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/res/layout/fragment_home.xml"
     },
     {
+        "merged": "/Users/sunilkv/Documents/SunilWorkspace/CallApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/nav_header_dashboard.xml",
+        "source": "/Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/res/layout/nav_header_dashboard.xml"
+    },
+    {
         "merged": "/Users/sunilkv/Documents/SunilWorkspace/CallApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_auth.xml",
         "source": "/Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/res/layout/activity_auth.xml"
+    },
+    {
+        "merged": "/Users/sunilkv/Documents/SunilWorkspace/CallApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/content_dashboard.xml",
+        "source": "/Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/res/layout/content_dashboard.xml"
     },
     {
         "merged": "/Users/sunilkv/Documents/SunilWorkspace/CallApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",

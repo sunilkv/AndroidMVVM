@@ -1895,6 +1895,7 @@ id dragLeft
 id dragRight
 id dragStart
 id dragUp
+id drawer_layout
 id dropdown_menu
 id easeIn
 id easeInOut
@@ -2025,8 +2026,11 @@ id mtrl_view_tag_bottom_padding
 id multiply
 id nav_auth
 id nav_controller_view_tag
+id nav_gallery
 id nav_home
 id nav_host_fragment_container
+id nav_slideshow
+id nav_view
 id navigation_header_container
 id never
 id noScroll
@@ -2265,6 +2269,7 @@ layout abc_tooltip
 layout activity_auth
 layout activity_home
 layout activity_main
+layout content_dashboard
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -2326,6 +2331,7 @@ layout mtrl_picker_header_title_text
 layout mtrl_picker_header_toggle
 layout mtrl_picker_text_input_date
 layout mtrl_picker_text_input_date_range
+layout nav_header_dashboard
 layout notification_action
 layout notification_action_tombstone
 layout notification_media_action
@@ -2359,6 +2365,7 @@ layout text_view_with_line_height_from_layout
 layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
+menu activity_dashboard_drawer
 menu dashboard
 mipmap ic_launcher
 mipmap ic_launcher_round
