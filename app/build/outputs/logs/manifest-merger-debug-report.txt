@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:2:1-27:12
-INJECTED from /Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:2:1-27:12
-INJECTED from /Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:2:1-27:12
-INJECTED from /Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:2:1-27:12
+ADDED from /Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:2:1-28:12
 MERGED from [androidx.databinding:viewbinding:4.1.3] /Users/sunilkv/.gradle/caches/transforms-2/files-2.1/9efc841d919e1a81deebcd71c01e3e08/jetified-viewbinding-4.1.3/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] /Users/sunilkv/.gradle/caches/transforms-2/files-2.1/a2f464e210956472e812938f8f3bdaaf/navigation-fragment-ktx-2.3.5/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.fragment:fragment-ktx:1.2.4] /Users/sunilkv/.gradle/caches/transforms-2/files-2.1/229c7f189514af3bcde271c38d5211f3/jetified-fragment-ktx-1.2.4/AndroidManifest.xml:17:1-24:12
@@ -66,20 +66,20 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/
 MERGED from [androidx.print:print:1.0.0] /Users/sunilkv/.gradle/caches/transforms-2/files-2.1/867cf69cf4e0d809ee9094cc51ba5ada/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/sunilkv/.gradle/caches/transforms-2/files-2.1/53ad9e672087d84300cc8713154826c6/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/sunilkv/.gradle/caches/transforms-2/files-2.1/e72cdda2654f50cce5bd5126a123872c/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:2:1-27:12
-INJECTED from /Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:2:1-27:12
-INJECTED from /Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:2:1-28:12
 	package
 		ADDED from /Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:3:5-33
 		INJECTED from /Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml
-		ADDED from /Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:2:1-27:12
+		ADDED from /Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:2:1-28:12
 		INJECTED from /Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml
-		ADDED from /Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:2:1-27:12
+		ADDED from /Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:2:1-28:12
 		INJECTED from /Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:2:11-69
@@ -88,7 +88,7 @@ ADDED from /Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidM
 	android:name
 		ADDED from /Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:5:22-64
 application
-ADDED from /Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:7:5-25:19
+ADDED from /Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:7:5-26:19
 MERGED from [com.google.android.material:material:1.3.0] /Users/sunilkv/.gradle/caches/transforms-2/files-2.1/873702ca94e1521002f5bd9bd49aed57/material-1.3.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.3.0] /Users/sunilkv/.gradle/caches/transforms-2/files-2.1/873702ca94e1521002f5bd9bd49aed57/material-1.3.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/sunilkv/.gradle/caches/transforms-2/files-2.1/c7e4489945f5f28e8d9c9cd25b5fb80d/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
@@ -104,41 +104,43 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/suni
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.5.0] /Users/sunilkv/.gradle/caches/transforms-2/files-2.1/adf4eae61868adef2179b67b70b29d60/core-1.5.0/AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from /Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:13:9-35
+		ADDED from /Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:14:9-35
 	android:label
-		ADDED from /Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:11:9-41
+		ADDED from /Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:12:9-41
 	android:fullBackupContent
-		ADDED from /Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:9:9-41
+		ADDED from /Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:10:9-41
 	android:roundIcon
-		ADDED from /Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:12:9-54
+		ADDED from /Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:13:9-54
 	android:icon
-		ADDED from /Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:10:9-43
+		ADDED from /Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:11:9-43
 	android:allowBackup
 		ADDED from /Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:8:9-35
 	android:theme
-		ADDED from /Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:14:9-51
+		ADDED from /Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:15:9-51
+	android:usesCleartextTraffic
+		ADDED from /Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:9:9-44
 activity#com.gw.callingcard.ui.home.HomeActivity
-ADDED from /Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:16:9-58
-	android:name
-		ADDED from /Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:16:19-55
-activity#com.gw.callingcard.ui.auth.AuthActivity
 ADDED from /Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:17:9-58
 	android:name
 		ADDED from /Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:17:19-55
+activity#com.gw.callingcard.ui.auth.AuthActivity
+ADDED from /Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:18:9-58
+	android:name
+		ADDED from /Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:18:19-55
 activity#com.gw.callingcard.MainActivity
-ADDED from /Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:18:9-24:20
+ADDED from /Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:19:9-25:20
 	android:name
-		ADDED from /Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:18:19-47
+		ADDED from /Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:19:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:19:13-23:29
+ADDED from /Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:20:13-24:29
 action#android.intent.action.MAIN
-ADDED from /Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:20:17-69
+ADDED from /Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:21:17-69
 	android:name
-		ADDED from /Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:20:25-66
+		ADDED from /Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:21:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:22:17-77
+ADDED from /Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:23:17-77
 	android:name
-		ADDED from /Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:22:27-74
+		ADDED from /Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:23:27-74
 uses-sdk
 INJECTED from /Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml

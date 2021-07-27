@@ -24,7 +24,6 @@ class MainActivity : AppCompatActivity() {
 
         val appPreferences = AppPreferences(this)
 
-
         appPreferences.authToken.asLiveData().observe(this, Observer {
             //adding the Loading for 3ms.. splash Screen..
             lifecycleScope.launch {

@@ -16,12 +16,9 @@ import com.gw.callingcard.data.network.APIInterface
 import com.gw.callingcard.data.network.Resource
 import com.gw.callingcard.data.repository.AuthRepository
 import com.gw.callingcard.databinding.FragmentLoginBinding
+import com.gw.callingcard.ui.*
 import com.gw.callingcard.ui.base.BaseFragment
-import com.gw.callingcard.ui.enable
-import com.gw.callingcard.ui.handleApiError
 import com.gw.callingcard.ui.home.HomeActivity
-import com.gw.callingcard.ui.startNewActivity
-import com.gw.callingcard.ui.visible
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking
 
@@ -40,10 +37,14 @@ class LoginFragment : BaseFragment<AuthViewModel,FragmentLoginBinding,AuthReposi
             when(it){
                 is   Resource.Success ->{
                     //using lifecycle scope because preferences will take time to store before that the activity will get started..
-                   lifecycleScope.launch {
-                       viewModel.saveAuthToken(it.value.user.access_token.toString())
-                       requireActivity().startNewActivity(HomeActivity::class.java)
-                   }
+                    if(it.value.success) {
+                        lifecycleScope.launch {
+                            viewModel.saveAuthToken(it.value.data.phonenumber.toString())
+                            requireActivity().startNewActivity(HomeActivity::class.java)
+                        }
+                    }else{
+                        requireView().snackbar(it.value.message)
+                    }
                 }
                 is Resource.Failure ->{
                     handleApiError(it)

@@ -1,16 +1,13 @@
 package com.gw.callingcard.data.network
 
 import com.gw.callingcard.data.responses.LoginResponse
-import retrofit2.http.Field
-import retrofit2.http.FormUrlEncoded
-import retrofit2.http.POST
+import retrofit2.http.*
 
 interface APIInterface {
 
-    @FormUrlEncoded
-    @POST("auth/login")
+    @GET("Auth/login")
    suspend fun  login( // suspend bez we use Asyncronous call using Co-routines
-        @Field("email") email:String,
-        @Field("password") password : String
+        @Query("email") email:String,
+        @Query("password") password : String
     ):LoginResponse
 }

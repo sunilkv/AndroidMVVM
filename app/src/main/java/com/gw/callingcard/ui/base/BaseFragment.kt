@@ -28,6 +28,7 @@ abstract class BaseFragment<VM: ViewModel,B:ViewBinding,R:BaseRepository>: Fragm
     protected lateinit var appPreferences:AppPreferences
 
 
+
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         appPreferences= AppPreferences(requireContext())
         binding=getFragmentBinding(inflater,container)

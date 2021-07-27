@@ -1,5 +1,8 @@
 package com.gw.callingcard.data.responses
 
 data class LoginResponse(
-    val user: User
+
+    val data: User,
+    val success:Boolean,
+    val message:String
 )
