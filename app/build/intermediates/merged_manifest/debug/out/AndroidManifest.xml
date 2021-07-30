@@ -22,9 +22,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.MyApplication"
         android:usesCleartextTraffic="true" >
-        <activity android:name="com.gw.callingcard.ui.home.HomeActivity" />
+        <activity android:name="com.gw.callingcard.ui.home.DashboardActivity" />
         <activity android:name="com.gw.callingcard.ui.auth.AuthActivity" />
-        <activity android:name="com.gw.callingcard.MainActivity" >
+        <activity android:name="com.gw.callingcard.SplashActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

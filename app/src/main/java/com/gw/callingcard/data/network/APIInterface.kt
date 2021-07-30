@@ -1,5 +1,6 @@
 package com.gw.callingcard.data.network
 
+import com.gw.callingcard.data.responses.EmployeeDashboardResponse
 import com.gw.callingcard.data.responses.LoginResponse
 import retrofit2.http.*
 
@@ -10,4 +11,11 @@ interface APIInterface {
         @Query("email") email:String,
         @Query("password") password : String
     ):LoginResponse
+
+   @GET("Employees/Dashboard")
+   suspend fun employeeDashboard(
+       @Query("id") empId:String
+   ): EmployeeDashboardResponse
+
+
 }

@@ -43,5 +43,8 @@ abstract class BaseFragment<VM: ViewModel,B:ViewBinding,R:BaseRepository>: Fragm
     abstract fun getViewModel():Class<VM>
     abstract fun getFragmentBinding(inflater: LayoutInflater,container: ViewGroup?):B
     abstract fun getFragmentRepository():R
+
+
+
 }
 

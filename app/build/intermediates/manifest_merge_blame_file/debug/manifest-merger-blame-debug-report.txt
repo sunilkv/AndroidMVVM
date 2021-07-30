@@ -36,15 +36,15 @@
 23-->/Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:15:9-51
 24        android:usesCleartextTraffic="true" >
 24-->/Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:9:9-44
-25        <activity android:name="com.gw.callingcard.ui.home.HomeActivity" />
-25-->/Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:17:9-58
-25-->/Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:17:19-55
+25        <activity android:name="com.gw.callingcard.ui.home.DashboardActivity" />
+25-->/Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:17:9-63
+25-->/Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:17:19-60
 26        <activity android:name="com.gw.callingcard.ui.auth.AuthActivity" />
 26-->/Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:18:9-58
 26-->/Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:18:19-55
-27        <activity android:name="com.gw.callingcard.MainActivity" >
+27        <activity android:name="com.gw.callingcard.SplashActivity" >
 27-->/Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:19:9-25:20
-27-->/Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:19:19-47
+27-->/Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:19:19-49
 28            <intent-filter>
 28-->/Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:20:13-24:29
 29                <action android:name="android.intent.action.MAIN" />

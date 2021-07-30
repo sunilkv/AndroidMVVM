@@ -1,12 +1,9 @@
 package com.gw.callingcard.ui.auth
 
-import android.content.Intent
-import android.opengl.Visibility
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Toast
 import androidx.core.widget.addTextChangedListener
 import androidx.lifecycle.Observer
 import androidx.lifecycle.lifecycleScope
@@ -18,9 +15,8 @@ import com.gw.callingcard.data.repository.AuthRepository
 import com.gw.callingcard.databinding.FragmentLoginBinding
 import com.gw.callingcard.ui.*
 import com.gw.callingcard.ui.base.BaseFragment
-import com.gw.callingcard.ui.home.HomeActivity
+import com.gw.callingcard.ui.home.DashboardActivity
 import kotlinx.coroutines.launch
-import kotlinx.coroutines.runBlocking
 
 
 class LoginFragment : BaseFragment<AuthViewModel,FragmentLoginBinding,AuthRepository>() {
@@ -40,7 +36,7 @@ class LoginFragment : BaseFragment<AuthViewModel,FragmentLoginBinding,AuthReposi
                     if(it.value.success) {
                         lifecycleScope.launch {
                             viewModel.saveAuthToken(it.value.data.phonenumber.toString())
-                            requireActivity().startNewActivity(HomeActivity::class.java)
+                            requireActivity().startNewActivity(DashboardActivity::class.java)
                         }
                     }else{
                         requireView().snackbar(it.value.message)

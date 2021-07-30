@@ -119,18 +119,18 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/suni
 		ADDED from /Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:15:9-51
 	android:usesCleartextTraffic
 		ADDED from /Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:9:9-44
-activity#com.gw.callingcard.ui.home.HomeActivity
-ADDED from /Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:17:9-58
+activity#com.gw.callingcard.ui.home.DashboardActivity
+ADDED from /Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:17:9-63
 	android:name
-		ADDED from /Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:17:19-55
+		ADDED from /Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:17:19-60
 activity#com.gw.callingcard.ui.auth.AuthActivity
 ADDED from /Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:18:9-58
 	android:name
 		ADDED from /Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:18:19-55
-activity#com.gw.callingcard.MainActivity
+activity#com.gw.callingcard.SplashActivity
 ADDED from /Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:19:9-25:20
 	android:name
-		ADDED from /Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:19:19-47
+		ADDED from /Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:19:19-49
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from /Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:20:13-24:29
 action#android.intent.action.MAIN

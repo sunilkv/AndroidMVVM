@@ -1736,6 +1736,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable right_arrow
 drawable side_nav_bar
 drawable test_custom_background
 drawable tooltip_frame_dark
@@ -1821,6 +1822,7 @@ id all
 id always
 id animateToEnd
 id animateToStart
+id app_bar_dashboard
 id asConfigured
 id async
 id auto
@@ -1869,8 +1871,12 @@ id cos
 id counterclockwise
 id custom
 id customPanel
+id customer_description_tv
+id customer_name_tv
+id customer_number_tv
 id cut
 id date_picker_actions
+id deal_tv
 id decelerate
 id decelerateAndComplete
 id decor_content_parent
@@ -1923,13 +1929,14 @@ id fitToContents
 id fixed
 id flip
 id floating
+id followup_tv
 id forever
 id fragment
-id fragmentContainerView
 id fragment_container_view_tag
 id ghost_view
 id ghost_view_holder
 id gone
+id goto_customer_iv
 id graph
 id graph_wrap
 id group_divider
@@ -2029,6 +2036,7 @@ id nav_controller_view_tag
 id nav_gallery
 id nav_home
 id nav_host_fragment_container
+id nav_host_fragment_content_dashboard
 id nav_slideshow
 id nav_view
 id navigation_header_container
@@ -2064,6 +2072,8 @@ id progressbar
 id radio
 id ratio
 id rectangles
+id recyclerview_rv
+id rejected_tv
 id reverseSawtooth
 id right
 id rightToLeft
@@ -2176,6 +2186,7 @@ id time
 id title
 id titleDividerNoCustom
 id title_template
+id todays_tv
 id toggle
 id toolbar
 id top
@@ -2194,6 +2205,7 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id username
 id view_offset_helper
 id view_tree_lifecycle_owner
 id view_tree_saved_state_registry_owner
@@ -2267,10 +2279,11 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_auth
-layout activity_home
-layout activity_main
+layout activity_dashboard
+layout activity_splash
 layout content_dashboard
 layout custom_dialog
+layout customer_itemview_layout
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
 layout design_layout_snackbar
@@ -2411,6 +2424,7 @@ string character_counter_overflowed_content_description
 string character_counter_pattern
 string chip_text
 string clear_text_end_icon_content_description
+string deal
 string don_t_have_an_account_register_now
 string email
 string email_hint
@@ -2418,6 +2432,7 @@ string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
+string follow_up
 string forgot_your_password
 string hello_blank_fragment
 string hide_bottom_view_on_scroll_behavior
@@ -2492,10 +2507,12 @@ string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
 string register_now
+string rejected
 string search_menu_title
 string select_plan
 string status_bar_notification_info_overflow
 string title_activity_dashboard
+string today_s
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style AndroidThemeColorAccentYellow

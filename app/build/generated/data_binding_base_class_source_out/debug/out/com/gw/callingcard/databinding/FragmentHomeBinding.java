@@ -5,19 +5,48 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import com.gw.callingcard.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
+import java.lang.String;
 
 public final class FragmentHomeBinding implements ViewBinding {
   @NonNull
   private final FrameLayout rootView;
 
-  private FragmentHomeBinding(@NonNull FrameLayout rootView) {
+  @NonNull
+  public final TextView dealTv;
+
+  @NonNull
+  public final TextView followupTv;
+
+  @NonNull
+  public final RecyclerView recyclerviewRv;
+
+  @NonNull
+  public final TextView rejectedTv;
+
+  @NonNull
+  public final TextView todaysTv;
+
+  @NonNull
+  public final TextView username;
+
+  private FragmentHomeBinding(@NonNull FrameLayout rootView, @NonNull TextView dealTv,
+      @NonNull TextView followupTv, @NonNull RecyclerView recyclerviewRv,
+      @NonNull TextView rejectedTv, @NonNull TextView todaysTv, @NonNull TextView username) {
     this.rootView = rootView;
+    this.dealTv = dealTv;
+    this.followupTv = followupTv;
+    this.recyclerviewRv = recyclerviewRv;
+    this.rejectedTv = rejectedTv;
+    this.todaysTv = todaysTv;
+    this.username = username;
   }
 
   @Override
@@ -43,10 +72,50 @@ public final class FragmentHomeBinding implements ViewBinding {
 
   @NonNull
   public static FragmentHomeBinding bind(@NonNull View rootView) {
-    if (rootView == null) {
-      throw new NullPointerException("rootView");
-    }
+    // The body of this method is generated in a way you would not otherwise write.
+    // This is done to optimize the compiled bytecode for size and performance.
+    int id;
+    missingId: {
+      id = R.id.deal_tv;
+      TextView dealTv = rootView.findViewById(id);
+      if (dealTv == null) {
+        break missingId;
+      }
 
-    return new FragmentHomeBinding((FrameLayout) rootView);
+      id = R.id.followup_tv;
+      TextView followupTv = rootView.findViewById(id);
+      if (followupTv == null) {
+        break missingId;
+      }
+
+      id = R.id.recyclerview_rv;
+      RecyclerView recyclerviewRv = rootView.findViewById(id);
+      if (recyclerviewRv == null) {
+        break missingId;
+      }
+
+      id = R.id.rejected_tv;
+      TextView rejectedTv = rootView.findViewById(id);
+      if (rejectedTv == null) {
+        break missingId;
+      }
+
+      id = R.id.todays_tv;
+      TextView todaysTv = rootView.findViewById(id);
+      if (todaysTv == null) {
+        break missingId;
+      }
+
+      id = R.id.username;
+      TextView username = rootView.findViewById(id);
+      if (username == null) {
+        break missingId;
+      }
+
+      return new FragmentHomeBinding((FrameLayout) rootView, dealTv, followupTv, recyclerviewRv,
+          rejectedTv, todaysTv, username);
+    }
+    String missingId = rootView.getResources().getResourceName(id);
+    throw new NullPointerException("Missing required view with ID: ".concat(missingId));
   }
 }
