@@ -35,7 +35,8 @@ class LoginFragment : BaseFragment<AuthViewModel,FragmentLoginBinding,AuthReposi
                     //using lifecycle scope because preferences will take time to store before that the activity will get started..
                     if(it.value.success) {
                         lifecycleScope.launch {
-                            viewModel.saveAuthToken(it.value.data.phonenumber.toString())
+
+                            viewModel.saveAuthToken(it.value.data.user,it.value.data.role)
                             requireActivity().startNewActivity(DashboardActivity::class.java)
                         }
                     }else{

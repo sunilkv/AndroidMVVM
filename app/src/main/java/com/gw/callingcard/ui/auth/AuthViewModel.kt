@@ -7,6 +7,8 @@ import androidx.lifecycle.viewModelScope
 import com.gw.callingcard.data.network.Resource
 import com.gw.callingcard.data.repository.AuthRepository
 import com.gw.callingcard.data.responses.LoginResponse
+import com.gw.callingcard.data.responses.Role
+import com.gw.callingcard.data.responses.User
 import kotlinx.coroutines.launch
 
 //Repository as constructor paremeter
@@ -25,8 +27,8 @@ class AuthViewModel(
                 _loginResponse.value = repository.login(email,password)
         }
 
-     suspend   fun saveAuthToken(authtoken:String)=
-             repository.saveAuthToken(authtoken)
+     suspend   fun saveAuthToken(user: User, role: Role)=
+             repository.saveAuthToken(user,role)
 
 
 }

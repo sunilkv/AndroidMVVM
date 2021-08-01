@@ -104,21 +104,25 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/suni
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.5.0] /Users/sunilkv/.gradle/caches/transforms-2/files-2.1/adf4eae61868adef2179b67b70b29d60/core-1.5.0/AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from /Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:14:9-35
+		ADDED from /Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:13:9-35
 	android:label
-		ADDED from /Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:12:9-41
+		ADDED from /Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:11:9-41
 	android:fullBackupContent
-		ADDED from /Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:10:9-41
+		ADDED from /Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:9:9-41
 	android:roundIcon
-		ADDED from /Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:13:9-54
+		ADDED from /Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:12:9-54
 	android:icon
-		ADDED from /Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:11:9-43
+		ADDED from /Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:10:9-43
 	android:allowBackup
 		ADDED from /Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:8:9-35
 	android:theme
-		ADDED from /Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:15:9-51
+		ADDED from /Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:14:9-51
 	android:usesCleartextTraffic
-		ADDED from /Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:9:9-44
+		ADDED from /Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:15:9-44
+activity#com.gw.callingcard.ui.customer.CustomerActivity
+ADDED from /Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:16:9-75
+	android:name
+		ADDED from /Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:16:19-63
 activity#com.gw.callingcard.ui.home.DashboardActivity
 ADDED from /Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/AndroidManifest.xml:17:9-63
 	android:name
