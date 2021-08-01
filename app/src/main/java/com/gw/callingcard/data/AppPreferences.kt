@@ -37,16 +37,16 @@ class AppPreferences( context: Context){
     }
 
     //Adding a data to a preferences..
-        suspend fun  storeUserDetails(user: User,role: Role){
-            dataStore.edit { preferences->
-                preferences[KEY_Name]=user.name.toString()
-                preferences[Key_Role]=user.user_role_id.toString()
-                preferences[Key_PhoneNumber]=user.phonenumber.toString()
-                preferences[Key_userId]=user.id.toString()
-                preferences[Key_userprofile]=user.profile_photo_url.toString()
-                preferences[Key_RoleName]=role.roles_name.toString()
-            }
+    suspend fun  storeUserDetails(user: User,role: Role){
+        dataStore.edit { preferences->
+            preferences[KEY_Name]=user.name.toString()
+            preferences[Key_Role]=user.user_role_id.toString()
+            preferences[Key_PhoneNumber]=user.phonenumber.toString()
+            preferences[Key_userId]=user.id.toString()
+            preferences[Key_userprofile]=user.profile_photo_url.toString()
+            preferences[Key_RoleName]=role.roles_name.toString()
         }
+    }
 
 
     //Read the Stored Data ..
