@@ -1,7 +1,7 @@
 package com.gw.callingcard.data
 
 import android.content.Context
-import androidx.datastore.DataStore
+import androidx.datastore.core.DataStore
 import androidx.datastore.preferences.Preferences
 import androidx.datastore.preferences.createDataStore
 import androidx.datastore.preferences.edit
@@ -18,7 +18,7 @@ class AppPreferences( context: Context){
 
     init {
         dataStore = applicationContext.createDataStore(
-            name = "app_preferences"
+                name = "app_preferences"
         )
     }
 
@@ -29,11 +29,11 @@ class AppPreferences( context: Context){
     }
 
     //Adding a data to a preferences..
-        suspend fun  storeUserDetails(authtoken:String){
-            dataStore.edit { preferences->
-                preferences[KEY_AUTH]=authtoken
-            }
+    suspend fun  storeUserDetails(authtoken:String){
+        dataStore.edit { preferences->
+            preferences[KEY_AUTH]=authtoken
         }
+    }
 
 
     //Read the Stored Data ..
