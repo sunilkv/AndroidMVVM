@@ -11,7 +11,8 @@ class RemoteDataSource {
 
     //this nothing but a static Variable
     companion object{
-             private const val BASE_URL="http://demo.technoshale.com/api/"
+        //     private const val BASE_URL="http://demo.technoshale.com/api/"
+             private const val BASE_URL="http://192.168.0.100:8000/api/"
     }
 
     fun<Api> buildApi(

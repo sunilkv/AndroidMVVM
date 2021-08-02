@@ -6,10 +6,14 @@ com/gw/callingcard/databinding/ContentDashboardBinding.java
  com.gw.callingcard.databinding.ContentDashboardBinding
 com/gw/callingcard/databinding/FragmentSignupBinding.java
  com.gw.callingcard.databinding.FragmentSignupBinding
+com/gw/callingcard/databinding/FragmentCustomerDetailBinding.java
+ com.gw.callingcard.databinding.FragmentCustomerDetailBinding
 com/gw/callingcard/databinding/ActivityDashboardBinding.java
  com.gw.callingcard.databinding.ActivityDashboardBinding
 com/gw/callingcard/databinding/FragmentHomeBinding.java
  com.gw.callingcard.databinding.FragmentHomeBinding
+com/gw/callingcard/databinding/ActivityCustomerBinding.java
+ com.gw.callingcard.databinding.ActivityCustomerBinding
 com/gw/callingcard/databinding/CustomerItemviewLayoutBinding.java
  com.gw.callingcard.databinding.CustomerItemviewLayoutBinding
 com/gw/callingcard/databinding/ActivitySplashBinding.java

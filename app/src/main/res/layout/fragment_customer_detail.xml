@@ -33,7 +33,7 @@
             android:drawablePadding="10dp"
             android:gravity="center_vertical"
             android:padding="8dp"
-            android:text="CALL"
+            android:text="@string/call"
             android:textSize="14sp" />
 
     </androidx.appcompat.widget.LinearLayoutCompat>

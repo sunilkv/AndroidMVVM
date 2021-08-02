@@ -16,6 +16,10 @@
         "source": "/Users/sunilkv/Documents/SunilWorkspace/CallApp/app/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_launcher_foreground.xml"
     },
     {
+        "merged": "/Users/sunilkv/Documents/SunilWorkspace/CallApp/app/build/intermediates/res/merged/debug/drawable-xhdpi_call_icon.png.flat",
+        "source": "/Users/sunilkv/Documents/SunilWorkspace/CallApp/app/build/generated/res/pngs/debug/drawable-xhdpi/call_icon.png"
+    },
+    {
         "merged": "/Users/sunilkv/Documents/SunilWorkspace/CallApp/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
         "source": "/Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
     },
@@ -52,12 +56,12 @@
         "source": "/Users/sunilkv/Documents/SunilWorkspace/CallApp/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_menu_gallery.xml"
     },
     {
-        "merged": "/Users/sunilkv/Documents/SunilWorkspace/CallApp/app/build/intermediates/res/merged/debug/drawable_call_app.png.flat",
-        "source": "/Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/res/drawable/call_app.png"
-    },
-    {
         "merged": "/Users/sunilkv/Documents/SunilWorkspace/CallApp/app/build/intermediates/res/merged/debug/layout_activity_auth.xml.flat",
         "source": "/Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/res/layout/activity_auth.xml"
+    },
+    {
+        "merged": "/Users/sunilkv/Documents/SunilWorkspace/CallApp/app/build/intermediates/res/merged/debug/drawable_call_app.png.flat",
+        "source": "/Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/res/drawable/call_app.png"
     },
     {
         "merged": "/Users/sunilkv/Documents/SunilWorkspace/CallApp/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_ic_launcher_background.xml.flat",
@@ -96,6 +100,10 @@
         "source": "/Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/res/layout/fragment_signup.xml"
     },
     {
+        "merged": "/Users/sunilkv/Documents/SunilWorkspace/CallApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi_call_icon.png.flat",
+        "source": "/Users/sunilkv/Documents/SunilWorkspace/CallApp/app/build/generated/res/pngs/debug/drawable-xxhdpi/call_icon.png"
+    },
+    {
         "merged": "/Users/sunilkv/Documents/SunilWorkspace/CallApp/app/build/intermediates/res/merged/debug/navigation_nav_auth.xml.flat",
         "source": "/Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/res/navigation/nav_auth.xml"
     },
@@ -128,6 +136,10 @@
         "source": "/Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/res/layout/activity_customer.xml"
     },
     {
+        "merged": "/Users/sunilkv/Documents/SunilWorkspace/CallApp/app/build/intermediates/res/merged/debug/drawable-mdpi_call_icon.png.flat",
+        "source": "/Users/sunilkv/Documents/SunilWorkspace/CallApp/app/build/generated/res/pngs/debug/drawable-mdpi/call_icon.png"
+    },
+    {
         "merged": "/Users/sunilkv/Documents/SunilWorkspace/CallApp/app/build/intermediates/res/merged/debug/layout_content_dashboard.xml.flat",
         "source": "/Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/res/layout/content_dashboard.xml"
     },
@@ -156,6 +168,10 @@
         "source": "/Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/res/font/poppins_bold.ttf"
     },
     {
+        "merged": "/Users/sunilkv/Documents/SunilWorkspace/CallApp/app/build/intermediates/res/merged/debug/drawable-ldpi_call_icon.png.flat",
+        "source": "/Users/sunilkv/Documents/SunilWorkspace/CallApp/app/build/generated/res/pngs/debug/drawable-ldpi/call_icon.png"
+    },
+    {
         "merged": "/Users/sunilkv/Documents/SunilWorkspace/CallApp/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
         "source": "/Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
     },
@@ -180,6 +196,10 @@
         "source": "/Users/sunilkv/Documents/SunilWorkspace/CallApp/app/build/generated/res/pngs/debug/drawable-xxxhdpi/right_arrow.png"
     },
     {
+        "merged": "/Users/sunilkv/Documents/SunilWorkspace/CallApp/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_call_icon.png.flat",
+        "source": "/Users/sunilkv/Documents/SunilWorkspace/CallApp/app/build/generated/res/pngs/debug/drawable-xxxhdpi/call_icon.png"
+    },
+    {
         "merged": "/Users/sunilkv/Documents/SunilWorkspace/CallApp/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_right_arrow.xml.flat",
         "source": "/Users/sunilkv/Documents/SunilWorkspace/CallApp/app/build/generated/res/pngs/debug/drawable-anydpi-v21/right_arrow.xml"
     },
@@ -196,12 +216,20 @@
         "source": "/Users/sunilkv/Documents/SunilWorkspace/CallApp/app/build/generated/res/pngs/debug/drawable-hdpi/right_arrow.png"
     },
     {
+        "merged": "/Users/sunilkv/Documents/SunilWorkspace/CallApp/app/build/intermediates/res/merged/debug/drawable-hdpi_call_icon.png.flat",
+        "source": "/Users/sunilkv/Documents/SunilWorkspace/CallApp/app/build/generated/res/pngs/debug/drawable-hdpi/call_icon.png"
+    },
+    {
         "merged": "/Users/sunilkv/Documents/SunilWorkspace/CallApp/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
         "source": "/Users/sunilkv/Documents/SunilWorkspace/CallApp/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
     },
     {
         "merged": "/Users/sunilkv/Documents/SunilWorkspace/CallApp/app/build/intermediates/res/merged/debug/drawable-ldpi_ic_launcher_background.png.flat",
         "source": "/Users/sunilkv/Documents/SunilWorkspace/CallApp/app/build/generated/res/pngs/debug/drawable-ldpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "/Users/sunilkv/Documents/SunilWorkspace/CallApp/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_call_icon.xml.flat",
+        "source": "/Users/sunilkv/Documents/SunilWorkspace/CallApp/app/build/generated/res/pngs/debug/drawable-anydpi-v21/call_icon.xml"
     },
     {
         "merged": "/Users/sunilkv/Documents/SunilWorkspace/CallApp/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",

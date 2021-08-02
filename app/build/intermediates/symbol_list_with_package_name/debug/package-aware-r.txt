@@ -1687,6 +1687,7 @@ drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
 drawable call_app
+drawable call_icon
 drawable design_bottom_navigation_item_background
 drawable design_fab_background
 drawable design_ic_visibility
@@ -1840,6 +1841,7 @@ id buttonLogin
 id buttonPanel
 id buttonRegister
 id cache_measures
+id call_customer
 id cancel_action
 id cancel_button
 id center
@@ -1872,6 +1874,7 @@ id counterclockwise
 id custom
 id customPanel
 id customer_description_tv
+id customer_info_ll
 id customer_name_tv
 id customer_number_tv
 id cut
@@ -2420,12 +2423,14 @@ string app_name
 string appbar_scrolling_view_behavior
 string bottom_sheet_behavior
 string bottomsheet_action_expand_halfway
+string call
 string cfrm_password
 string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
 string chip_text
 string clear_text_end_icon_content_description
+string customer_name
 string deal
 string don_t_have_an_account_register_now
 string email

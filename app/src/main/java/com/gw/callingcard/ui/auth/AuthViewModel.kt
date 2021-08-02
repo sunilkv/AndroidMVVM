@@ -23,8 +23,8 @@ class AuthViewModel(
         val loginResponse : LiveData<Resource<LoginResponse>> get() =_loginResponse //assinging the livedata result
 
 
-        fun login( email:String, password:String)=viewModelScope.launch {
-                _loginResponse.value = repository.login(email,password)
+        fun login( phonenumbr:String, password:String)=viewModelScope.launch {
+                _loginResponse.value = repository.login(phonenumbr,password)
         }
 
      suspend   fun saveAuthToken(user: User, role: Role)=

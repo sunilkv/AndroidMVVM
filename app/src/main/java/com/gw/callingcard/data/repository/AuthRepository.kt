@@ -12,10 +12,10 @@ class AuthRepository(
 
     // suspend bez we use Asyncronous call using Co-routines
     suspend fun login(
-            email:String,
+            phonenumber:String,
             password:String
     )=SafeApiCall{
-        api.login(email,password)
+        api.login(phonenumber,password)
     }
 
 

@@ -8,7 +8,7 @@ interface APIInterface {
 
     @GET("Auth/login")
    suspend fun  login( // suspend bez we use Asyncronous call using Co-routines
-        @Query("email") email:String,
+        @Query("phonenumber") phonenumber:String,
         @Query("password") password : String
     ):LoginResponse
 
